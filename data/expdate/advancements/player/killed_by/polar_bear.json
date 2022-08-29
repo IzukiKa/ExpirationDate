@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:polar_bear"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expdate:death_messages/polar_bear"
+    }
+  }
+  
