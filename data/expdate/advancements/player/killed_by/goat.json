@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:goat"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expdate:death_messages/goat"
+    }
+  }
+  
