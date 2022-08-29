@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:elder_guardian"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expdate:death_messages/elder_guardian"
+    }
+  }
+  
