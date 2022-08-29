@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:iron_golem"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "expdate:death_messages/iron_golem"
+    }
+  }
+  
